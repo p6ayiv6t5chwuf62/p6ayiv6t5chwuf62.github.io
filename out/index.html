@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>MAIN TEST FILE</title>
+  <style>
+    /* From extension foam.foam-vscode */
+    .foam-placeholder-link {
+      color: var(--vscode-editorWarning-foreground);
+      cursor: default;
+    }
+
+    .foam-note-link,
+    .foam-attachment-link {
+      color: var(--vscode-textLink-foreground);
+      background-color: red;
+    }
+
+    .foam-tag {
+      color: var(--vscode-editorLineNumber-foreground);
+    }
+
+    .foam-cyclic-link-warning {
+      background-color: var(--vscode-editorError-background);
+      color: var(--vscode-editorError-foreground);
+    }
+  </style>
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+  <style>
+    body {
+      font-family: JetBrains Mono;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+  <style>
+    .task-list-item {
+      list-style-type: none;
+    }
+
+    .task-list-item-checkbox {
+      margin-left: -20px;
+      vertical-align: middle;
+    }
+  </style>
+
+
+
+</head>
+
+<body class="vscode-body">
+  <h1 id="main-test-file">MAIN TEST FILE</h1>
+  <p>[<a href="vars.html" title="vars">vars</a>] is a <strong>container</strong> for <code>memory</code> within a rust
+    file,
+    in this case it showcases the power of the foam template.<br>
+    Have left over stuff - fear not - put it <a class='foam-note-link' title='stuff' href='/out/stuff/stuff.html'
+      data-href='/src/stuff/stuff.md'>here</a> lets make a new file <a class='foam-note-link' title='stuff'
+      href='/src/stuff/new.md' data-href='/src/stuff/new.md'>bop</a></p>
+  <hr>
+
+</body>
+
+</html>
